@@ -1,6 +1,22 @@
 <?php
-// Bepaal welke pagina geladen moet worden
+require_once 'config/db_config.php'
+?>
+
+<?php 
+
 $pagina = $_GET["pagina"] ?? "home";
+
+if {isset ($_GET{"pagina"})}
+{
+
+}
+
+else {
+     $pagina = "home" ; 
+
+}
+
+
 
 // Whitelist van toegestane pagina’s
 $toegestanePaginas = ["home", "activiteit", "student", "foto", "score", "reactie", "login"];
