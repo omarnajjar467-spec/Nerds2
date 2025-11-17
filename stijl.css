@@ -1,0 +1,128 @@
+
+
+
+
+
+
+body {
+    background: #ededed;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+
+nav ul {
+    display: flex;
+    background: #16C8F8;
+    justify-content: center;
+    padding: 0;
+    margin: 8px;
+    border-radius: 5px;
+    list-style-type: none;
+    height: 70px;
+
+}
+
+nav ul  :hover {
+   
+    background: #0099dd;
+    height: 25px;
+    color: #fff;
+    border-radius:5px
+}
+nav ul li {
+    margin: 0 16px;
+    padding: 14px 0;
+}
+nav ul li a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 0;
+    display: block;
+}
+h2 {
+    text-align: center;
+    background: #81e1fa;
+    margin: 24px 24px 0 24px;
+    padding: 10px 0;
+    border-radius: 15px;
+}
+.welkom {
+    background: #16C8F8;
+    padding: 30px 20px 30px 20px;
+    margin: 32px 80px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+}
+.knoppen {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin: 36px 0 24px 0;
+}
+.knop {
+    background: #16C8F8;
+    color: #000;
+    padding: 20px 36px;
+    text-align: center;
+    border-radius: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+.knop:hover {
+    background: #0099dd;
+    color: #fff;
+}
+.laatste-activiteit {
+    background: #16C8F8;
+    border-radius: 18px;
+    width: 400px;
+    margin: 36px auto 20px auto;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+footer {
+    background: #16C8F8;
+    padding: 18px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 34px;
+    border-radius: 0 0 12px 12px;
+}
+
+.knopje.toevoegen-activiteit {
+    background: #16C8F8;
+    
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;      
+    width: fit-content; 
+    transition: background 0.2s, color 0.2s;
+}
+
+
+
+.knopje.toevoegen-activiteit:hover {
+    background: #0977cb;
+    color: #fff;
+    text-decoration: none; 
+}
+.verborgen {
+    display: none;
+}
+
+
