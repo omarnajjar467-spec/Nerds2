@@ -4,7 +4,6 @@ require_once 'config/db_config.php'
 
 <?php 
 
-$pagina = $_GET["pagina"] ?? "home";
 
 if {isset ($_GET{"pagina"})}
 {
